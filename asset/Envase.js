@@ -50,9 +50,9 @@ const Envase = class Envase {
   mostrarDatos() {
     console.log("Datos del envase: ");
     console.log("Tipo: " + this.getTipoEnvase);
-    console.log("Tipo: " + this.getCapacidad());
-    console.log("Tipo: " + this.getDiametrio());
-    console.log("Tipo: " + this.getMaterial());
+    console.log("Capacidad: " + this.getCapacidad());
+    console.log("Diametro: " + this.getDiametrio());
+    console.log("Material: " + this.getMaterial());
     console.log("Valor Devolucion X Un: $ " + this.valor.toFixed(2));
   }
 };
