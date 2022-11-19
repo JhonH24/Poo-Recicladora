@@ -1,31 +1,31 @@
 const Recibo = class Recibo {
-    constructor(cliente, arrayDeEnvases){
+    constructor(cliente, arrayDeEnvases) {
         this.cliente = cliente;
         this.arrayDeEnvases = arrayDeEnvases;
     }
 
-    get Cliente() {
+    getCliente() {
         return this.cliente;
     }
 
-    set Cliente(cliente) {
+    setCliente(cliente) {
         this.cliente = cliente
     }
 
-    get ArrayDeEnvases() {
+    getArrayDeEnvases() {
         return this.arrayDeEnvases;
     }
 
-    set ArrayDeEnvases(arrayDeEnvases) {
+    setArrayDeEnvases(arrayDeEnvases) {
         this.arrayDeEnvases = arrayDeEnvases;
     }
 
-    mostrarDatos(){
+    mostrarDatos() {
         console.log("Datos del recibo: ");
         this.cliente.mostrarDatos();
         console.log("-----------------------------------------------");
         console.log("Datos del/ de los envase/s: ");
-        for (let i = 0; i < this.arrayDeEnvases.length; i++){
+        for (let i = 0; i < this.arrayDeEnvases.length; i++) {
             this.arrayDeEnvases[i].mostrarDatos();
             console.log("--------------------------------------------")
         }

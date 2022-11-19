@@ -5,27 +5,27 @@ const Cliente = class Cliente {
     this.dni = dni;
   }
 
-  get Nombre() {
+  getNombre() {
     return this.nombre;
   }
 
-  set Nombre(nombre) {
+  setNombre(nombre) {
     this.nombre = nombre;
   }
 
-  get Apellido() {
+  getApellido() {
     return this.apellido;
   }
 
-  set Apellido(apellido) {
+  setApellido(apellido) {
     this.apellido = apellido;
   }
 
-  get Dni() {
+  getDni() {
     return this.dni;
   }
 
-  set Dni(dni) {
+  setDni(dni) {
     this.dni = dni;
   }
 

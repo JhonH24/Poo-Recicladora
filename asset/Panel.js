@@ -42,10 +42,9 @@ function botonImprimir() {
   for (Envase in arrayDeEnvases) {
       console.log("Tipo: " + arrayDeEnvases[Envase].getTipoEnvase() + "\n" +
           "Capacidad: " + arrayDeEnvases[Envase].getCapacidad() + "\n" +
-          "Precio: " + arrayDeEnvases[Envase].getPrecio() + "\n" +
-          "Peso: " + arrayDeEnvases[Envase].getPeso() + "\n" +
+          "Diametro: " + arrayDeEnvases[Envase].getDiametro() + "\n" +
+          "Precio: " + arrayDeEnvases[Envase].getValor() + "\n" +
           "Material: " + arrayDeEnvases[Envase].getMaterial() + "\n" +
-          "Peso total: " + arrayDeEnvases[Envase].getPesoTotal() + "\n" +
           "-----------------------------------------------------" + "\n");
   }
 }

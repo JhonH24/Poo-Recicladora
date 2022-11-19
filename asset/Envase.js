@@ -7,49 +7,49 @@ const Envase = class Envase {
     this.material = material;
   }
 
-  get TipoEnvase() {
+  getTipoEnvase() {
     return this.tipoEnvase;
   }
 
-  set TipoEnvase(tipoEnvase) {
+  setTipoEnvase(tipoEnvase) {
     this.tipoEnvase = tipoEnvase;
   }
 
-  get Capacidad() {
+  getCapacidad() {
     return this.capacidad;
   }
 
-  set Capacidad(capacidad) {
+  setCapacidad(capacidad) {
     this.capacidad = capacidad;
   }
 
-  get Diametro() {
+  getDiametro() {
     return this.diametro;
   }
 
-  set Diametro(diametro) {
+  setDiametro(diametro) {
     this.diametro = diametro;
   }
 
-  get Valor() {
+  getValor() {
     return this.valor;
   }
 
-  set Valor(valor) {
+  setValor(valor) {
     this.valor = valor;
   }
 
-  get Material() {
+  getMaterial() {
     return this.material;
   }
 
-  set Material(material) {
+  setMaterial(material) {
     this.material = material;
   }
 
   mostrarDatos() {
     console.log("Datos del envase: ");
-    console.log("Tipo: " + this.getTipoEnvase);
+    console.log("Tipo: " + this.getTipoEnvase());
     console.log("Capacidad: " + this.getCapacidad());
     console.log("Diametro: " + this.getDiametrio());
     console.log("Material: " + this.getMaterial());
