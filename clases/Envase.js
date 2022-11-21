@@ -1,4 +1,4 @@
-const Envase = class Envase {
+class Envase {
   constructor(tipoEnvase, capacidad, diametro, valor, material) {
     this.tipoEnvase = tipoEnvase;
     this.capacidad = capacidad;
@@ -47,13 +47,9 @@ const Envase = class Envase {
     this.material = material;
   }
 
-  mostrarDatos() {
-    console.log("Datos del envase: ");
-    console.log("Tipo: " + this.getTipoEnvase());
-    console.log("Capacidad: " + this.getCapacidad());
-    console.log("Diametro: " + this.getDiametrio());
-    console.log("Material: " + this.getMaterial());
-    console.log("Valor Devolucion X Un: $ " + this.valor.toFixed(2));
+  mostrarInfo() {
+    let info = `Tipo_Envase: ${this.tipoEnvase}, Capacidad: ${this.capacidad}, Diametro: ${this.diametro}, Valor: ${this.valor}, Material: ${this.material}`
+    console.log(info)
   }
 };
 
