@@ -25,16 +25,16 @@ const Recibo = class Recibo {
         console.log(info)
     }
 
-    mostrarDatos() {
-        console.log("Datos del recibo: ");
-        this.cliente.mostrarInfo();
-        console.log("-----------------------------------------------------");
-        console.log("Datos del/ de los envase/s: ");
-        for (let i = 0; i < this.arrayDeEnvases.length; i++) {
-            this.arrayDeEnvases[i].mostrarInfo();
-            console.log("-----------------------------------------------------");
-        }
-    }
+    // mostrarDatos() {
+    //     console.log("Datos del recibo: ");
+    //     this.cliente.mostrarInfo();
+    //     console.log("-----------------------------------------------------");
+    //     console.log("Datos del/ de los envase/s: ");
+    //     for (let i = 0; i < this.arrayDeEnvases.length; i++) {
+    //         this.arrayDeEnvases[i].mostrarInfo();
+    //         console.log("-----------------------------------------------------");
+    //     }
+    // }
 
 }
 module.exports = Recibo;

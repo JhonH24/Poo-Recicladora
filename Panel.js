@@ -10,7 +10,7 @@ var envase02 = new Envase("Lata", "330 ml", 50, 9, "Plastico", 68.7)
 var envase03 = new Envase("Botella", "1000 ml", 50, 9, "Vidrio", 68.7)
 let arrayDeEnvases = [envase01, envase02, envase03]
 
-const cliente1 = new Cliente(0001, "Juan", "Perez");
+const cliente1 = new Cliente("Juan", "Perez", 15151515);
 const recibo1 = new Recibo(cliente1, arrayDeEnvases);
 
 
@@ -25,7 +25,9 @@ const recibo1 = new Recibo(cliente1, arrayDeEnvases);
 // }
 
 
-recibo1.mostrarInfo()
+// recibo1.mostrarInfo()
+
+console.log(Object.values(recibo1))
 
 
 // botonInicio();
